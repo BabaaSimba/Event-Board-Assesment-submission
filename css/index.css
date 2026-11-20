@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 60%;
+  margin-inline: auto;
+}
+.page-header h1 {
+  margin: 20px 0;
+}
+.featured {
+  margin: 20px 0;
+}
+.standard {
+  margin: 20px 0;
+}
+.legend {
+  margin: 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.main-site h2 {
+  margin: 20px 0;
+}
+
+.t-head {
+  padding: 30px 0;
+}
+
+.first {
+  margin: 20px 0;
+}
+
+.meme {
+  margin: 30px;
+}
+
+.last {
+  margin: 20px 0;
+}
+.mark {
+  margin: 30px;
+}
+
+.table2 {
+  margin: 50px 0;
+}
+
+.t-head {
+  background-color: rgba(128, 128, 128, 0.534);
+}
+
+.table2 thead {
+  background-color: rgba(128, 128, 128, 0.534);
+}

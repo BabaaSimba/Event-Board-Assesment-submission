@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model Assigment</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Box Model Assignment: Event Board</h1>
+      <p class="featured">Suggested time: 2 hours 100 marks</p>
+      <p class="standard">
+        Build the page shown in target.png from scratch, writing both HTML and
+        CSS. The text and pictures you need are in the content.txt and the img
+        folder. Match the target at a browser width of 1200px, and meet every
+        measurement below. Use DevTools to measure your own work as you go.
+      </p>
+      <p class="legend">
+        You may not use flexbox, grid, float, position, !important or
+        JavaScript. Use class seclectors, and write semantic HTML.
+      </p>
+    </header>
+
+    <hr />
+
+    <main class="main-site">
+      <h2>Measurement</h2>
+      <table class="" border="1px">
+        <tr>
+        <thead class="t-head">
+          <th class="">Part of the page</th>
+          <th>What it must do</th>
+        </thead>
+        </tr>
+        <tr>
+          <th>Page <br> container</th>
+          <td>
+            The main content is 960px wide at most and centered with automatic
+            side margins.
+          </td>
+        </tr>
+        <tr>
+            <th>Box <br> sizing</th>
+            <td>Every element uses border-box, set once for the whole page</td>            
+        </tr>
+        <tr>
+            <th>Header</th>
+            <td>Padding 16px 24px with a 1px bottom border. The site name and nav links sit on one line. Each nav link is a pill: pading 6px 14px, 1px border, radius 999px, margin-right 6px</td>
+            <tr>
+                <th>Hero</th>
+                <td>At least 200px tall with 48px of padding top and bottom, Background linear-gradient(135deg, #1c2340, #3a1d12). Heading 2.25rem. paragraph no wider than 56 characters.</td>
+            </tr>
+        </tr>
+        <tr>
+        <th>Event <br> cards</th>
+        <td>Exactly 300px wide on screen, including 16px of padding and a 1px border. Margin 0 10px 20px. Three cards per row inside the 960px container, then a new row. Cards line up along their</td>
+        </tr>
+        <tr>
+          <th>Card <br> Picture</th>
+          <td>The picture area is 150px high and clips it's image. The image fills it without distortion. on hover the image zooms slightly and inside the rounded corners.</td>
+        </tr>
+        <tr>
+            <th>Card title</th>
+            <td>One line only, with an elipsis when too long.</td>
+        </tr>
+        <tr>
+          <th>
+            Card <br> description
+          </th>
+          <td>No taller than 72px, which is three lines at a 24px line height. It scrolls when the text is longer.</td>
+        </tr>
+        <tr>
+          <th>Card <br> tags</th>
+          <td>Pills with padding 4px 10px and margin 0 6px 6px 0. They wrap onto a new line if needed.</td>
+        </tr>
+        <tr>
+          <th>
+            Register <br> button
+          </th>
+          <td>
+            A full width block, at least 44px high, with the text centered.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Notice <br> panel
+          </th>
+          <td>
+            Exactly 200px high including it's padding and border. It scrolls verticall.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Schedule <br> table
+          </th>
+          <td>Never narrow than 720px, when the window is narrow, the table scrools sideways inside it's own rounded wrapper, and the page does not.</td>
+        </tr>
+        <tr>
+          <th>
+            Narrow <br> window
+          </th>
+          <td>
+            At a browser width of 600px the page has no sideways scrollbar.
+          </td>
+        </tr>
+      </table>
+      <hr>
+      <h3 class="first">
+        Colours and type
+      </h3>
+      <p class="meme">
+      Page background #0b0d14. Card and panel background #141824. Borders #2a2f42. Main text #f2f3f7.
+      Muted text #a3a9bd. Accent and buttons #ff6220. Tag background #242a40. Body text 16px in the system font. Store the colours as CSS variables and use them everywhere.</p>
+      
+      <hr>
+
+      <h4 class="mark">Marks</h4>
+
+      <table class="table2" border="1px">
+        <tr>
+        <thead>
+        <th>Area</th>
+        <th>Mark</th>
+        </thead>
+        </tr>
+        <tr>
+        <td>Measurements: every row of the  table above is met</td>
+        <td>45</td>
+        </tr>
+        <tr>
+        <td>Visual match to the target at 1200px: spacing,  sizes, colours, alignment</td>
+        <td>25</td>
+        </tr>
+        <tr>
+          <td>CSS quality: One reset, colour variables, no repeated declarations,  clear class names, related rules kept together</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>HTML semantics elements, correct heading order, alt text on images</td>
+          <td>10</td>
+        </tr>
+
+      </table>
+      <p class="last" >Spend the first ten minutes planning on paper. Work out the box maths for one card, and for three cards across the container, before you write any code.</p>
+    </main>
+  </body>
+</html>
